@@ -1,0 +1,15 @@
+{
+  "users": [
+    { "id": "1234", "name": "John Doe"},
+    { "id": "1235", "name": "Jane Doe"},
+    { "id": "1236", "name": "Mickey Mouse"},
+    { "id": "1237", "name": "Donald Duck"}
+  ],
+  "tasks": [
+    { "id": 1, "info": "Write Angular app",
+      "assigneeId": "1234",
+      "done": false },
+    { "id": 2, "info": "Prepare task", "assigneeId": "1234", "done": true },
+    { "id": 3, "info": "Prepare environment ", "assigneeId": "1237", "done": false }
+  ]
+}

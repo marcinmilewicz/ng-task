@@ -1,0 +1,5 @@
+<ng-container *ngIf='(task$ | async) as task'>
+  <h3>{{task.info}}</h3>
+  <h4>{{task.assigneeId}}</h4>
+  <h5>{{task.done}}</h5>
+</ng-container>

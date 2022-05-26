@@ -16,4 +16,8 @@ export class TasksService {
     addNewTask(task: Task) {
         return this.httpClient.post(`/tasks`, task).pipe(tap(console.log))
     }
+
+    getById(taskId: number | string): Observable<Task> {
+        return this.httpClient.get<Task>(`/tasks/${taskId}`).pipe(shareReplay())
+    }
 }

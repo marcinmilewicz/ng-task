@@ -1,0 +1,12 @@
+<ng-container *ngIf="(users$ | async) as users ">
+  <form [formGroup]="form">
+    <input type="text" formControlName="info">
+    <select formControlName="assigneeId" >
+      <option *ngFor="let user of users">{{user.id}}</option>
+    </select>
+    <input type="checkbox" formControlName="done">
+    <button (click)="saveTask()" [disabled]="!form.valid">
+      save
+    </button>
+  </form>
+</ng-container>

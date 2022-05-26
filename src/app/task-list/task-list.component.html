@@ -1,6 +1,6 @@
-<ng-container *ngIf="(tasks$ | async) as tasks">
+<ng-container *ngIf='(tasks$ | async) as tasks'>
   <table>
-    <tr *ngFor="let task of tasks" (click)="showTask(task)">
+    <tr *ngFor='let task of tasks' (click)='showTask(task)'>
       <td> {{task.id}}</td>
       <td>{{task.info}}</td>
       <td>{{task.assigneeId}}</td>
@@ -8,3 +8,5 @@
     </tr>
   </table>
 </ng-container>
+
+<button (click)='addTask()'>Add</button>

@@ -1,6 +1,6 @@
 export interface Task {
-  "id": number,
-  "info": string,
-  "assigneeId": string,
-  "done": boolean
+    id: number | string
+    info: string
+    assigneeId: string
+    done: boolean
 }

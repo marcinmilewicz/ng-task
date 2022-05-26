@@ -19,6 +19,5 @@ export class TaskListComponent implements OnInit {
   }
 
   showTask(task: Task) {
-    console.log(task)
   }
 }

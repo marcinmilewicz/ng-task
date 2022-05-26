@@ -1,15 +1,46 @@
 {
   "users": [
-    { "id": "1234", "name": "John Doe"},
-    { "id": "1235", "name": "Jane Doe"},
-    { "id": "1236", "name": "Mickey Mouse"},
-    { "id": "1237", "name": "Donald Duck"}
+    {
+      "id": "1234",
+      "name": "John Doe"
+    },
+    {
+      "id": "1235",
+      "name": "Jane Doe"
+    },
+    {
+      "id": "1236",
+      "name": "Mickey Mouse"
+    },
+    {
+      "id": "1237",
+      "name": "Donald Duck"
+    }
   ],
   "tasks": [
-    { "id": 1, "info": "Write Angular app",
+    {
+      "id": 1,
+      "info": "Write Angular app",
       "assigneeId": "1234",
-      "done": false },
-    { "id": 2, "info": "Prepare task", "assigneeId": "1234", "done": true },
-    { "id": 3, "info": "Prepare environment ", "assigneeId": "1237", "done": false }
+      "done": false
+    },
+    {
+      "id": 2,
+      "info": "Prepare task",
+      "assigneeId": "1234",
+      "done": true
+    },
+    {
+      "id": 3,
+      "info": "Prepare environment ",
+      "assigneeId": "1237",
+      "done": false
+    },
+    {
+      "id": "0cd308a1-cfa7-4840-b3de-c444eef16f4a",
+      "info": "test",
+      "assigneeId": "1236",
+      "done": false
+    }
   ]
 }

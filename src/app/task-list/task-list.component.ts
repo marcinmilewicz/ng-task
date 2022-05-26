@@ -18,7 +18,9 @@ export class TaskListComponent implements OnInit {
         this.tasks$ = this.tasksService.getAllTasks()
     }
 
-    showTask(task: Task) {}
+    showTask(task: Task) {
+        this.router.navigateByUrl(`/view/details/${task.id}`)
+    }
 
     addTask() {
         this.router.navigateByUrl('/view/addtask')

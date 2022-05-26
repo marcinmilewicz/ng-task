@@ -7,10 +7,11 @@ import { RouterModule } from '@angular/router'
 import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module'
 import { AddTaskComponent } from './add-task/add-task.component'
-import { ReactiveFormsModule } from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms';
+import { TaskDetailsComponent } from './task-details/task-details.component'
 
 @NgModule({
-    declarations: [AppComponent, TaskListComponent, AddTaskComponent],
+    declarations: [AppComponent, TaskListComponent, AddTaskComponent, TaskDetailsComponent],
     imports: [
         BrowserModule,
         RouterModule,

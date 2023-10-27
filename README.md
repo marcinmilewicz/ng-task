@@ -27,3 +27,4 @@ Run `npm run start:server` for a mock json server. Navigate to `http://localhost
 - Remember about front-end validation when creating data
 - Data from json-server comes with a small delay simulating real scenarios. How will you handle it to be friendly in terms of UX?
 - Although it is a small task, remember about modularity when creating solutions to show your understanding when creating larger enterprise-class applications.
+- Should the framework version be updated, feel free to do it in the proper way
